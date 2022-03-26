@@ -1,5 +1,8 @@
+import dotenv from 'dotenv';
 import Discord from "discord.js";
 import fetch from 'node-fetch';
+
+dotenv.config();
 
 const client = new Discord.Client({intents: ["GUILDS", "GUILD_MESSAGES"]});
 
