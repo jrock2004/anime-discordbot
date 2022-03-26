@@ -1,0 +1,13 @@
+{
+  "name": "anime-lookup-bot",
+  "version": "0.1.0",
+  "description": "A discord bot that will let you look up anime information",
+  "main": "index.js",
+  "author": "John Costanzo <jrock2004@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "node-fetch": "^3.2.3"
+  },
+  "type": "module"
+}
